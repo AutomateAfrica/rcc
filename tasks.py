@@ -2,7 +2,7 @@ import os
 import shutil
 import sys
 
-from invoke import task
+from invoke.tasks import task
 
 # Determine OS-specific commands
 if sys.platform == "win32":
