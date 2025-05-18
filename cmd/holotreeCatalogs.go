@@ -9,11 +9,11 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/htfs"
-	"github.com/robocorp/rcc/pathlib"
-	"github.com/robocorp/rcc/pretty"
-	"github.com/robocorp/rcc/set"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/htfs"
+	"github.com/automateafrica/rcc/pathlib"
+	"github.com/automateafrica/rcc/pretty"
+	"github.com/automateafrica/rcc/set"
 	"github.com/spf13/cobra"
 )
 

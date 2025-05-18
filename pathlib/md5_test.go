@@ -3,8 +3,8 @@ package pathlib_test
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/hamlet"
-	"github.com/robocorp/rcc/pathlib"
+	"github.com/automateafrica/rcc/hamlet"
+	"github.com/automateafrica/rcc/pathlib"
 )
 
 func TestCalculateMD5OfFiles(t *testing.T) {

@@ -60,17 +60,17 @@ jobs:
           name: ${{ matrix.os }}-test-reports
           path: ./tmp/output/
 
-  trigger:
-    name: Trigger
-    runs-on: ubuntu-latest
-    needs:
-      - build
-      - robot
-    if: success() && github.ref == 'refs/heads/master'
-    steps:
-      - name: Pipeline
-        run: |
-          curl -X POST https://api.github.com/repos/robocorp/rcc-pipeline/dispatches \
-          -H 'Accept: application/vnd.github.v3+json' \
-          -u ${{ secrets.TRIGGER_TOKEN }} \
-          --data '{"event_type": "pipes"}'
+  # trigger:
+  #   name: Trigger
+  #   runs-on: ubuntu-latest
+  #   needs:
+  #     - build
+  #     - robot
+  #   if: success() && github.ref == 'refs/heads/master'
+  #   steps:
+  #     - name: Pipeline
+  #       run: |
+  #         curl -X POST https://api.github.com/repos/robocorp/rcc-pipeline/dispatches \
+  #         -H 'Accept: application/vnd.github.v3+json' \
+  #         -u ${{ secrets.TRIGGER_TOKEN }} \
+  #         --data '{"event_type": "pipes"}'

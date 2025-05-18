@@ -3,8 +3,8 @@ package operations_test
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/hamlet"
-	"github.com/robocorp/rcc/operations"
+	"github.com/automateafrica/rcc/hamlet"
+	"github.com/automateafrica/rcc/operations"
 )
 
 func TestHashMatchingIsNotCaseSensitive(t *testing.T) {

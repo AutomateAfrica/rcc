@@ -8,14 +8,14 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/robocorp/rcc/anywork"
-	"github.com/robocorp/rcc/blobs"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/htfs"
-	"github.com/robocorp/rcc/operations"
-	"github.com/robocorp/rcc/pathlib"
-	"github.com/robocorp/rcc/pretty"
-	"github.com/robocorp/rcc/settings"
+	"github.com/automateafrica/rcc/anywork"
+	"github.com/automateafrica/rcc/blobs"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/htfs"
+	"github.com/automateafrica/rcc/operations"
+	"github.com/automateafrica/rcc/pathlib"
+	"github.com/automateafrica/rcc/pretty"
+	"github.com/automateafrica/rcc/settings"
 
 	"github.com/spf13/cobra"
 )

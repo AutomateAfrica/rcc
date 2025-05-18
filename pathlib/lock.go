@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/pretty"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/pretty"
 )
 
 type Releaser interface {

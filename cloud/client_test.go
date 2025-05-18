@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/robocorp/rcc/cloud"
-	"github.com/robocorp/rcc/hamlet"
+	"github.com/automateafrica/rcc/cloud"
+	"github.com/automateafrica/rcc/hamlet"
 )
 
 func TestCannotCreateClientForBadEndpoint(t *testing.T) {

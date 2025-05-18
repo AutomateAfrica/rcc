@@ -3,7 +3,7 @@ package conda
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/hamlet"
+	"github.com/automateafrica/rcc/hamlet"
 )
 
 func TestCanValidateLocations(t *testing.T) {

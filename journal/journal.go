@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/fail"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/fail"
 )
 
 var (

@@ -4,10 +4,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/pathlib"
-	"github.com/robocorp/rcc/pretty"
-	"github.com/robocorp/rcc/shell"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/pathlib"
+	"github.com/automateafrica/rcc/pretty"
+	"github.com/automateafrica/rcc/shell"
 )
 
 func osSpecificHolotreeSharing(enable bool) {

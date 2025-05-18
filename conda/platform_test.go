@@ -3,9 +3,9 @@ package conda_test
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/conda"
-	"github.com/robocorp/rcc/hamlet"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/conda"
+	"github.com/automateafrica/rcc/hamlet"
 )
 
 func TestExpandingPath(t *testing.T) {

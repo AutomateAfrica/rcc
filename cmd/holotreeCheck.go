@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/robocorp/rcc/anywork"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/fail"
-	"github.com/robocorp/rcc/htfs"
-	"github.com/robocorp/rcc/pathlib"
-	"github.com/robocorp/rcc/pretty"
+	"github.com/automateafrica/rcc/anywork"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/fail"
+	"github.com/automateafrica/rcc/htfs"
+	"github.com/automateafrica/rcc/pathlib"
+	"github.com/automateafrica/rcc/pretty"
 	"github.com/spf13/cobra"
 )
 

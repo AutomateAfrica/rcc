@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/fail"
-	"github.com/robocorp/rcc/pathlib"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/fail"
+	"github.com/automateafrica/rcc/pathlib"
 	"gopkg.in/yaml.v2"
 )
 

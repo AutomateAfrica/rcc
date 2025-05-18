@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/robocorp/rcc/hamlet"
-	"github.com/robocorp/rcc/robot"
+	"github.com/automateafrica/rcc/hamlet"
+	"github.com/automateafrica/rcc/robot"
 )
 
 func TestCannotReadMissingRobotYaml(t *testing.T) {

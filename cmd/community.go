@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/robocorp/rcc/common"
+	"github.com/automateafrica/rcc/common"
 	"github.com/spf13/cobra"
 )
 

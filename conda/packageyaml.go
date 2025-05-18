@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/robocorp/rcc/cloud"
-	"github.com/robocorp/rcc/pathlib"
+	"github.com/automateafrica/rcc/cloud"
+	"github.com/automateafrica/rcc/pathlib"
 	"gopkg.in/yaml.v2"
 )
 

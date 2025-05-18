@@ -3,9 +3,9 @@ package mocks_test
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/cloud"
-	"github.com/robocorp/rcc/hamlet"
-	"github.com/robocorp/rcc/mocks"
+	"github.com/automateafrica/rcc/cloud"
+	"github.com/automateafrica/rcc/hamlet"
+	"github.com/automateafrica/rcc/mocks"
 )
 
 func TestCanWorkWithMockClient(t *testing.T) {

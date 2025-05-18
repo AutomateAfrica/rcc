@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/conda"
-	"github.com/robocorp/rcc/operations"
-	"github.com/robocorp/rcc/pretty"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/conda"
+	"github.com/automateafrica/rcc/operations"
+	"github.com/automateafrica/rcc/pretty"
 
 	"github.com/spf13/cobra"
 )

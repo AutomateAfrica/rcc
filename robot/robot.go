@@ -10,11 +10,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/conda"
-	"github.com/robocorp/rcc/pathlib"
-	"github.com/robocorp/rcc/pretty"
-	"github.com/robocorp/rcc/shell"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/conda"
+	"github.com/automateafrica/rcc/pathlib"
+	"github.com/automateafrica/rcc/pretty"
+	"github.com/automateafrica/rcc/shell"
 
 	"gopkg.in/yaml.v2"
 )

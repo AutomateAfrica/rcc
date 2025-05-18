@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/fail"
-	"github.com/robocorp/rcc/htfs"
-	"github.com/robocorp/rcc/set"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/fail"
+	"github.com/automateafrica/rcc/htfs"
+	"github.com/automateafrica/rcc/set"
 )
 
 const (

@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/robocorp/rcc/hamlet"
-	"github.com/robocorp/rcc/operations"
-	"github.com/robocorp/rcc/settings"
-	"github.com/robocorp/rcc/xviper"
+	"github.com/automateafrica/rcc/hamlet"
+	"github.com/automateafrica/rcc/operations"
+	"github.com/automateafrica/rcc/settings"
+	"github.com/automateafrica/rcc/xviper"
 )
 
 func TestCanGetEphemeralDefaultEndpointAccountByName(t *testing.T) {

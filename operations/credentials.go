@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/robocorp/rcc/cloud"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/pretty"
-	"github.com/robocorp/rcc/settings"
-	"github.com/robocorp/rcc/xviper"
+	"github.com/automateafrica/rcc/cloud"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/pretty"
+	"github.com/automateafrica/rcc/settings"
+	"github.com/automateafrica/rcc/xviper"
 )
 
 const (

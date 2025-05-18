@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/robocorp/rcc/blobs"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/pathlib"
-	"github.com/robocorp/rcc/pretty"
+	"github.com/automateafrica/rcc/blobs"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/pathlib"
+	"github.com/automateafrica/rcc/pretty"
 )
 
 const (

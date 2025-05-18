@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/fail"
-	"github.com/robocorp/rcc/pretty"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/fail"
+	"github.com/automateafrica/rcc/pretty"
 )
 
 func TempDir() string {

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/robocorp/rcc/cloud"
+	"github.com/automateafrica/rcc/cloud"
 )
 
 type MockClient struct {

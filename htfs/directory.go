@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/robocorp/rcc/anywork"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/fail"
-	"github.com/robocorp/rcc/pathlib"
-	"github.com/robocorp/rcc/set"
+	"github.com/automateafrica/rcc/anywork"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/fail"
+	"github.com/automateafrica/rcc/pathlib"
+	"github.com/automateafrica/rcc/set"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/robocorp/rcc/common"
+	"github.com/automateafrica/rcc/common"
 )
 
 const (
