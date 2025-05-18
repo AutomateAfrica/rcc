@@ -41,6 +41,7 @@ def noassets(c):
         "blobs/assets/micromamba.*",
         "blobs/assets/*.zip",
         "blobs/assets/*.yaml",
+        "blobs/assets/*.py",
         "blobs/assets/man/*.txt",
         "blobs/docs/*.md",
     ]
@@ -108,7 +109,7 @@ def assets(c):
                     zipf.write(file_path, arcname)
 
     # Copy asset files
-    asset_patterns = ["assets/*.txt", "assets/*.yaml"]
+    asset_patterns = ["assets/*.txt", "assets/*.yaml", "assets/*.py"]
     for pattern in asset_patterns:
         for file in glob.glob(pattern):
             print(f"Copying {file} to blobs/assets/")
