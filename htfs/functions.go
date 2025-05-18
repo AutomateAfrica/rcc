@@ -9,10 +9,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/robocorp/rcc/anywork"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/fail"
-	"github.com/robocorp/rcc/pathlib"
+	"github.com/automateafrica/rcc/anywork"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/fail"
+	"github.com/automateafrica/rcc/pathlib"
 )
 
 func justFileExistCheck(location string, path, name, digest string) anywork.Work {

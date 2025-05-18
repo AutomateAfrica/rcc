@@ -3,9 +3,9 @@ package shell_test
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/conda"
-	"github.com/robocorp/rcc/hamlet"
-	"github.com/robocorp/rcc/shell"
+	"github.com/automateafrica/rcc/conda"
+	"github.com/automateafrica/rcc/hamlet"
+	"github.com/automateafrica/rcc/shell"
 )
 
 func TestCanExecuteSimpleEcho(t *testing.T) {

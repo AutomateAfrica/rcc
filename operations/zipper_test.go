@@ -3,7 +3,7 @@ package operations
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/hamlet"
+	"github.com/automateafrica/rcc/hamlet"
 )
 
 const (

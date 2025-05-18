@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/fail"
-	"github.com/robocorp/rcc/pretty"
-	"github.com/robocorp/rcc/set"
-	"github.com/robocorp/rcc/settings"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/fail"
+	"github.com/automateafrica/rcc/pretty"
+	"github.com/automateafrica/rcc/set"
+	"github.com/automateafrica/rcc/settings"
 	"gopkg.in/yaml.v2"
 )
 

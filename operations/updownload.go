@@ -8,9 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/robocorp/rcc/cloud"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/pathlib"
+	"github.com/automateafrica/rcc/cloud"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/pathlib"
 )
 
 const (

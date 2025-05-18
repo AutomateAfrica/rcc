@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/robocorp/rcc/common"
+	"github.com/automateafrica/rcc/common"
 	"golang.org/x/term"
 )
 

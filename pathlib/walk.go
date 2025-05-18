@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/robocorp/rcc/pretty"
+	"github.com/automateafrica/rcc/pretty"
 )
 
 type Forced func(os.FileInfo) bool

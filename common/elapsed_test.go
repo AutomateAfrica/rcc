@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/hamlet"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/hamlet"
 )
 
 func TestCanUseStopwatch(t *testing.T) {

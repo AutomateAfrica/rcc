@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/robocorp/rcc/common"
+	"github.com/automateafrica/rcc/common"
 )
 
 func TouchWhen(location string, when time.Time) {

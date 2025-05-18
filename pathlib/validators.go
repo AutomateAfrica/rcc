@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/robocorp/rcc/pretty"
+	"github.com/automateafrica/rcc/pretty"
 )
 
 func FileExist(name string) bool {

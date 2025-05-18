@@ -3,8 +3,8 @@ package xviper_test
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/hamlet"
-	"github.com/robocorp/rcc/xviper"
+	"github.com/automateafrica/rcc/hamlet"
+	"github.com/automateafrica/rcc/xviper"
 )
 
 func TestCanFormatToGuidForm(t *testing.T) {

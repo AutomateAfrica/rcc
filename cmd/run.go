@@ -1,11 +1,13 @@
 package cmd
 
 import (
-	"github.com/robocorp/rcc/cloud"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/conda"
-	"github.com/robocorp/rcc/journal"
-	"github.com/robocorp/rcc/operations"
+	"log"
+
+	"github.com/automateafrica/rcc/cloud"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/conda"
+	"github.com/automateafrica/rcc/journal"
+	"github.com/automateafrica/rcc/operations"
 
 	"github.com/spf13/cobra"
 )
@@ -30,6 +32,11 @@ in your own machine.`,
 			defer common.Stopwatch("Task run lasted").Report()
 		}
 		simple, config, todo, label := operations.LoadTaskWithEnvironment(robotFile, runTask, forceFlag)
+		log.Println("========================================================LOCAL RUN============================================")
+		log.Printf("simple: %+v\n", simple)
+		log.Printf("config: %+v\n", config)
+		log.Printf("todo: %+v\n", todo)
+		log.Printf("label: %+v\n", label)
 		cloud.InternalBackgroundMetric(common.ControllerIdentity(), "rcc.cli.run", common.Version)
 		commandline := todo.Commandline()
 		commandline = append(commandline, args...)

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/robocorp/rcc/cloud"
-	"github.com/robocorp/rcc/common"
+	"github.com/automateafrica/rcc/cloud"
+	"github.com/automateafrica/rcc/common"
 )
 
 const (

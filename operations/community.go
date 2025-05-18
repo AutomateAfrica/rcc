@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/pathlib"
-	"github.com/robocorp/rcc/settings"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/pathlib"
+	"github.com/automateafrica/rcc/settings"
 )
 
 const (

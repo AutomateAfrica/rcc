@@ -3,9 +3,9 @@ package blobs_test
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/blobs"
-	"github.com/robocorp/rcc/hamlet"
-	"github.com/robocorp/rcc/operations"
+	"github.com/automateafrica/rcc/blobs"
+	"github.com/automateafrica/rcc/hamlet"
+	"github.com/automateafrica/rcc/operations"
 )
 
 func TestCanSeeBaseZipAsset(t *testing.T) {

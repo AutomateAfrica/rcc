@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/robocorp/rcc/set"
+	"github.com/automateafrica/rcc/set"
 )
 
 type (

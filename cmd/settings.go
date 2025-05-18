@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/robocorp/rcc/pretty"
-	"github.com/robocorp/rcc/settings"
+	"github.com/automateafrica/rcc/pretty"
+	"github.com/automateafrica/rcc/settings"
 	"github.com/spf13/cobra"
 )
 

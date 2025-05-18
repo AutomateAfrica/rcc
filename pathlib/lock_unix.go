@@ -7,7 +7,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/robocorp/rcc/common"
+	"github.com/automateafrica/rcc/common"
 )
 
 func Locker(filename string, trycount int, sharedLocation bool) (Releaser, error) {

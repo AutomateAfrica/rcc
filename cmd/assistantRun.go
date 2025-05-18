@@ -6,14 +6,14 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/robocorp/rcc/cloud"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/conda"
-	"github.com/robocorp/rcc/journal"
-	"github.com/robocorp/rcc/operations"
-	"github.com/robocorp/rcc/pathlib"
-	"github.com/robocorp/rcc/pretty"
-	"github.com/robocorp/rcc/robot"
+	"github.com/automateafrica/rcc/cloud"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/conda"
+	"github.com/automateafrica/rcc/journal"
+	"github.com/automateafrica/rcc/operations"
+	"github.com/automateafrica/rcc/pathlib"
+	"github.com/automateafrica/rcc/pretty"
+	"github.com/automateafrica/rcc/robot"
 
 	"github.com/spf13/cobra"
 )

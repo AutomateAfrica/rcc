@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/robocorp/rcc/conda"
-	"github.com/robocorp/rcc/hamlet"
+	"github.com/automateafrica/rcc/conda"
+	"github.com/automateafrica/rcc/hamlet"
 )
 
 func TestReadingMissingFileProducesError(t *testing.T) {

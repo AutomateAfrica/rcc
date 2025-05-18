@@ -5,12 +5,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/robocorp/rcc/cloud"
-	"github.com/robocorp/rcc/common"
-	"github.com/robocorp/rcc/conda"
-	"github.com/robocorp/rcc/fail"
-	"github.com/robocorp/rcc/pretty"
-	"github.com/robocorp/rcc/settings"
+	"github.com/automateafrica/rcc/cloud"
+	"github.com/automateafrica/rcc/common"
+	"github.com/automateafrica/rcc/conda"
+	"github.com/automateafrica/rcc/fail"
+	"github.com/automateafrica/rcc/pretty"
+	"github.com/automateafrica/rcc/settings"
 )
 
 type (

@@ -3,8 +3,8 @@ package set_test
 import (
 	"testing"
 
-	"github.com/robocorp/rcc/hamlet"
-	"github.com/robocorp/rcc/set"
+	"github.com/automateafrica/rcc/hamlet"
+	"github.com/automateafrica/rcc/set"
 )
 
 func TestMakingAndAppending(t *testing.T) {
